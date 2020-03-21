@@ -1,0 +1,210 @@
+        body {
+            width: 1064px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            background-image: url("MHBackground.jpg");
+            background-color: rgb(68, 50, 27);
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 14pt;
+            color: #ffffff;
+        }
+        
+        a {
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 13pt;
+        }
+        
+        a:hover {
+            color: #f26522;
+        }
+        
+        .icon {
+            display: block;
+            width: 45px;
+            height: 45px;
+            background-image: url("MHLogo.png");
+            margin-top: 50px;
+            float: left;
+        }
+        
+        .icon.logo {
+            background-position: 0 -44px;
+        }
+        
+        .icon.logo:hover {
+            background-position: 0 0;
+        }
+        
+        .linklogo {
+            font-weight: bold;
+            font-variant: small-caps;
+            margin-left: 60px;
+            margin-top: 25px;
+            position: absolute;
+            font-size: 15pt;
+        }
+        
+        .linklogo1 {
+            font-weight: bold;
+            font-variant: small-caps;
+            font-size: 24pt;
+            margin-left: 60px;
+            margin-top: -15px;
+            position: absolute;
+            transform: scaleY(1.3);
+        }
+        
+        header {
+            width: 1060px;
+            height: 141px;
+            margin-top: 0;
+            position: relative;
+        }
+        
+        footer {
+            font-size: 10pt;
+        }
+        
+        .contakts {
+            float: right;
+            text-align: right;
+            margin-top: 50px;
+            font-size: 12pt;
+        }
+        
+        .galery {
+            margin-top: 0;
+            position: relative;
+        }
+        
+        .clearfix:after {
+            content: ".";
+            display: block;
+            clear: both;
+            visibility: hidden;
+            height: 0;
+        }
+        
+        .galery div {
+            list-style: none;
+            text-align: center;
+            width: 300px;
+            padding-top: 15px;
+        }
+        
+        .image1 {
+            float: left;
+            margin-top: -15px;
+        }
+        
+        .image2 {
+            float: left;
+            margin-left: 67px;
+            margin-top: -15px;
+        }
+        
+        .image3 {
+            float: right;
+            margin-top: -15px;
+        }
+        
+        .image4 {
+            float: left;
+            margin-top: 43px;
+        }
+        
+        .image5 {
+            float: left;
+            margin-left: 67px;
+            margin-top: 43px;
+        }
+        
+        .image6 {
+            float: right;
+            margin-top: 43px;
+        }
+        
+        img {
+            display: block;
+            height: 200px;
+            width: 300px;
+        }
+        
+        footer {
+            display: block;
+            margin-top: 45px;
+            margin-bottom: 20px;
+            clear: left;
+            text-align: center;
+        }
+        
+        .blockup {
+            position: absolute;
+            top: 135px;
+            display: none;
+            height: 50px;
+            width: 300px;
+            background: #f26522;
+            color: #ffffff;
+        }
+        
+        a:hover .blockup {
+            display: block;
+            transition: 1.5s;
+        }
+        
+        .blockup2 {
+            position: absolute;
+            top: 433px;
+            display: none;
+            height: 50px;
+            width: 300px;
+            background: #f26522;
+            color: #ffffff;
+        }
+        
+        a:hover .blockup2 {
+            display: block;
+            transition: 1.5s;
+        }
+        
+        .from {
+            position: absolute;
+            top: 15px;
+            left: 20px;
+            font-size: 8pt;
+        }
+        
+        .euro {
+            position: absolute;
+            top: 28px;
+            left: 20px;
+            font-size: 15pt;
+        }
+        
+        .view {
+            position: absolute;
+            top: 30px;
+            right: 50px;
+            font-size: 12pt;
+        }
+        
+        .view::after {
+            content: " >";
+            color: #ffffff;
+            font-size: 12pt;
+            position: absolute;
+            right: -30px;
+        }
+        
+        .gradient {
+            height: 200px;
+            border: 2px solid transparent;
+            border-image: linear-gradient(to top, transparent 0%, #ffffff 100%);
+            border-image-slice: 3;
+            box-shadow: -10px 0 20px rgb(0, 0, 0), 10px 0 20px rgb(0, 0, 0), 0 10px 5px 10px rgb(0, 0, 0);
+            margin-top: -2px;
+            margin-left: -2px;
+        }
