@@ -3,8 +3,9 @@
             display: block;
             margin-left: auto;
             margin-right: auto;
-            background-image: url("MHBackground.jpg");
+            background-image: url(img/MHBackground.jpg);
             background-color: rgb(68, 50, 27);
+            background-size: 100%;
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             font-size: 14pt;
             color: #ffffff;
@@ -24,7 +25,7 @@
             display: block;
             width: 45px;
             height: 45px;
-            background-image: url("MHLogo.png");
+            background-image: url(img/MHLogo.png);
             margin-top: 50px;
             float: left;
         }
@@ -143,31 +144,39 @@
         .blockup {
             position: absolute;
             top: 135px;
-            display: none;
             height: 50px;
             width: 300px;
             background: #f26522;
             color: #ffffff;
+            opacity: 0;
+            visibility: hidden;
+            transition-property: opacity, visibility;
+            transition-duration: 0.5s;
+            transition-delay: 0.1s
         }
         
         a:hover .blockup {
-            display: block;
-            transition: 1.5s;
+            opacity: 1;
+            visibility: visible;
         }
         
         .blockup2 {
             position: absolute;
             top: 433px;
-            display: none;
             height: 50px;
             width: 300px;
             background: #f26522;
             color: #ffffff;
+            opacity: 0;
+            visibility: hidden;
+            transition-property: opacity, visibility;
+            transition-duration: 0.5s;
+            transition-delay: 0.1s
         }
         
         a:hover .blockup2 {
-            display: block;
-            transition: 1.5s;
+            opacity: 1;
+            visibility: visible;
         }
         
         .from {
@@ -192,11 +201,20 @@
         }
         
         .view::after {
-            content: " >";
-            color: #ffffff;
-            font-size: 12pt;
+            content: " ";
             position: absolute;
-            right: -30px;
+            margin-top: 6px;
+            margin-left: 20px;
+            width: 7px;
+            height: 7px;
+            border-radius: 1px;
+            border-right: 2px solid #ffffff;
+            border-bottom: 2px solid #ffffff;
+            -webkit-transform: rotate(-45deg);
+            -moz-transform: rotate(-45deg);
+            -o-transform: rotate(-45deg);
+            -ms-transform: rotate(-45deg);
+            transform: rotate(-45deg);
         }
         
         .gradient {
